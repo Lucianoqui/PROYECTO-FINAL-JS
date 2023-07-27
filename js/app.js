@@ -52,7 +52,7 @@ botonVaciar.addEventListener('click', () => {
 
 const cargarproducto = async () => {
     const resp = await
-    fetch ("../js/productos.json")
+    fetch ("./js/productos.json")
      dataproductos = await resp.json()
 
    
